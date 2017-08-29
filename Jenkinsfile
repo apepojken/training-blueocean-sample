@@ -24,7 +24,7 @@ pipeline {
           },
           "Frontend": {
             sh './jenkins/test-frontend.sh'
-            junit 'TestResults: **/test-results/karma/*.xml'
+            junit '**/test-results/karma/*.xml'
             
           },
           "Static": {
