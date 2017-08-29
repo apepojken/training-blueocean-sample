@@ -3,7 +3,7 @@
 echo Running Performance tests...
 # Using placeholder instead
 # ./mvn -B gatling:execute
-sleep 60
+sleep 5
 echo Performance tests done.
 
 exit 0
